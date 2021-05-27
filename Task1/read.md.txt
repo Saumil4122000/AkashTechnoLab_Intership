@@ -1,0 +1,4 @@
+I Have designed 2 page for Login System
+
+1st page asking for Phone Number once you enter phone number and press submit button it leads to 2nd page in 2nd page it asking for OTP..
+
