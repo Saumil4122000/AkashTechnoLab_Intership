@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check For Positive Number"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:padding="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Number"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:paddingTop="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/edt1"
+        android:paddingLeft="10dp"
+        android:inputType="numberSigned"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="sans-serif"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval"
+            android:text="Submit"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            android:id="@+id/btn"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"/>
+
+    </RelativeLayout>
+</LinearLayout>
