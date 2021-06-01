@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_marginTop="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailsPage"
+    android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details Page"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Name"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="30dp"
+
+            android:id="@+id/name"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Gender"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="30dp"
+
+            android:id="@+id/gender"
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Hobbies"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Hobby"
+            android:textSize="30dp"
+
+            android:id="@+id/hobby"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="50dp" />
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Email"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp"
+            android:id="@+id/email"
+
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Mobile"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:id="@+id/phone"
+            android:textSize="30dp"
+
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Password"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="30dp"
+            android:id="@+id/password"
+
+            android:fontFamily="sans-serif-condensed-light"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
