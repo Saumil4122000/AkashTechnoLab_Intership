@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_marginTop="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DisplayActivity"
+    android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details Page"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            android:padding="5dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Name"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saumil"
+            android:textSize="30dp"
+            android:id="@+id/name"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="90dp"
+            android:paddingTop="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Password"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sau$$@@X"
+            android:textSize="30dp"
+            android:id="@+id/password"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="90dp"
+            android:paddingTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Email"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="saumil715@gmail.com"
+            android:textSize="30dp"
+            android:id="@+id/email"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="90dp"
+            android:paddingTop="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Mobile"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8320012687"
+            android:textSize="30dp"
+            android:id="@+id/phone"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingLeft="90dp"
+            android:paddingTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
