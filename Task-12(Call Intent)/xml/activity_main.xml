@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Activity"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Phone"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number"
+        android:paddingTop="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/editText"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edit_text_border"
+        android:fontFamily="sans-serif"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_margin="40dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/button"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:background="@drawable/oval"
+        android:backgroundTint="#fff000"/>
+
+</LinearLayout>
